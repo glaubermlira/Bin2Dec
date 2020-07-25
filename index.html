@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Bin2Dec - by glauber d'lira</title>
+</head>
+
+<body>
+
+    <!-- formulario -->
+    <section class="form hide">
+        <h1>Bin<span>2</span>Dec</h1>
+        <h2>Conversor de números decimais</h2>
+
+        <p>Binário:<input type="text" class="into-bin" onchange="convert()" placeholder="insira aqui o número binário">
+        </p>
+        <p>Decimal:<input type="text" class="out-dec" placeholder="Número convertido"></p>
+
+        <!-- <button onclick="convert()">Converter</button> -->
+
+        <button class="button">
+            <span class="convert">Converter</span>
+            <span class="loading"><i class="fa fa-refresh"></i></span>
+        </button>
+
+    </section>
+
+
+    <script src="index.js"></script>
+
+
+
+</body>
+
+</html>
